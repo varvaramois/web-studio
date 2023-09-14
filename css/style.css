@@ -1,0 +1,25 @@
+:root {
+    --accent-color: #2196F3;
+    --main-color: #000000;
+    --add-color: #757575;
+    --add-white: #FFFFFF;
+    --brand-color: #212121;
+}
+.webstudio {
+    color: var(--accent-color);
+}
+.studio {
+    color: var(--accent-color);
+}
+.address {
+    color: var(--accent-color)
+}
+.tel {
+    color: var(--add-color);
+}
+.list {
+    color: var(--brand-color);
+}
+.p {
+    color: var(--add-color);
+}
