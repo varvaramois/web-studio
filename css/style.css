@@ -1,10 +1,11 @@
 :root {
     --accent-color: #2196F3;
-    --main-color: #000000;
+    --main-color: #212121;
     --add-color: #757575;
     --add-white: #FFFFFF;
-    --brand-color: #212121;
+    --main-bg-color: #2F303A;
 }
+/*
 .webstudio {
     color: var(--accent-color);
 }
@@ -18,7 +19,7 @@
     color: var(--add-color);
 }
 .list {
-    color: var(--brand-color);
+    color: var(--main-color);
 }
 .p {
     color: var(--add-color);
