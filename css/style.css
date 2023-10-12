@@ -8,6 +8,9 @@
 body {
   font-family: Roboto;
 }
+.list {
+    list-style: none;
+}
 /* header */
 .logo {
   font-family: Raleway;
@@ -91,6 +94,9 @@ body {
   text-transform: uppercase;
   background-color: var(--main-bg-color);
 }
+h2, .gallery-subtitle{
+  color: var(--main-color);
+}
 .hero-btn {
   color: #fff;
   font-size: 16px;
@@ -137,10 +143,12 @@ body {
 .filter-btn {
   font-size: 16px;
   line-height: 1.62;
+  color: var(--main-color);
 }
 .filter-btn:hover,
 .filter-btn:focus {
   background: var(--accent-color);
+  color: var(--add-white);
   cursor: pointer;
 }
 
