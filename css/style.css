@@ -95,10 +95,11 @@ img {
 }
 /* footer */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--main-bg-color);
 }
 .footer-logo {
-  padding-top: 60px;
   color: #fff;
   font-family: Raleway;
   font-size: 26px;
@@ -106,7 +107,6 @@ img {
 }
 .footer-address {
   margin-top: 20px;
-  padding-bottom: 60px;
 }
 .footer-address-link {
   color: rgba(255, 255, 255, 0.6);
@@ -135,10 +135,11 @@ img {
 }
 /* index-main */
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--main-bg-color);
 }
 .hero-title {
-  padding-top: 200px;
   color: #fff;
   text-align: center;
   font-size: 44px;
@@ -148,12 +149,11 @@ img {
   text-transform: uppercase;
   background-color: var(--main-bg-color);
 }
-.team-title, .work-title, .gallery-subtitle,.advantages-item-title{
+.team-title, .work-title, .gallery-subtitle,.advantages-item-title {
   color: var(--main-color);
 }
 .hero-btn {
   margin-top: 30px;
-  margin-bottom: 200px;
   color: #fff;
   font-size: 16px;
   font-weight: 700;
@@ -192,6 +192,7 @@ img {
   margin-bottom: 30px;
 }
 .team {
+  padding-top: 94px;
   background-color: #F5F4FA;
   padding-bottom: 94px;
 }
@@ -203,7 +204,6 @@ img {
   margin-bottom: 30px;
 }
 .team-title {
-  padding-top: 94px;
   margin-bottom: 50px;
   text-align: center;
   font-size: 36px;
@@ -225,7 +225,7 @@ img {
   letter-spacing: 0.48px;
 }
 /* portfolio-main */
-.filter-btn-list {
+.main-box {
   padding-top: 94px;
   padding-bottom: 50px;
 }
@@ -242,8 +242,8 @@ img {
   cursor: pointer;
 }
 .gallery-list {
-  padding-top: 34px;
-  padding-bottom: 94px;
+  margin-top: 34px;
+  margin-bottom: 94px;
 }
 .gallery-item {
   padding-top: 30px;
