@@ -196,9 +196,6 @@ img {
   background-color: #F5F4FA;
   padding-bottom: 94px;
 }
-.team-list {
-  margin-bottom: 94px;
-}
 .team-item {
   background-color: var(--add-white);
   margin-bottom: 30px;
@@ -227,7 +224,7 @@ img {
 /* portfolio-main */
 .main-box {
   padding-top: 94px;
-  padding-bottom: 50px;
+  padding-bottom: 94px;
 }
 .filter-btn {
   margin-top: 8px;
@@ -243,7 +240,6 @@ img {
 }
 .gallery-list {
   margin-top: 34px;
-  margin-bottom: 94px;
 }
 .gallery-item {
   padding-top: 30px;
