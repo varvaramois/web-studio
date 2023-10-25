@@ -60,13 +60,23 @@ img {
   padding-top: 24px;
   padding-bottom: 25px;
 }
+.header > .container {
+  display: flex;
+  align-items: center;
+}
 .logo {
+  margin-right: 93px;
   font-family: Raleway;
   font-size: 26px;
   letter-spacing: 0.78px;
 }
 .accent {
   color: var(--accent-color);
+}
+.nav-list {
+  display: flex;
+  gap: 50px;
+  margin-right: 344px;
 }
 .nav-link {
   color: var(--main-color);
@@ -79,6 +89,10 @@ img {
 .nav-link:focus {
   color: var(--accent-color);
   cursor: pointer;
+}
+.header-list {
+  display: flex;
+  gap: 50px;
 }
 .header-address-link {
   color: var(--add-color);
@@ -106,6 +120,8 @@ img {
   letter-spacing: 0.78px;
 }
 .footer-address {
+  display: flex;
+  flex-direction: column;
   margin-top: 20px;
 }
 .footer-address-link {
@@ -166,6 +182,9 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.advantages-list {
+  display: flex;
+}
 .advantages-item-title {
   margin-bottom: 10px;
   font-size: 14px;
@@ -182,6 +201,10 @@ img {
 .work {
   padding-bottom: 94px;
 }
+.work-list {
+  display: flex;
+  gap: 30px;
+}
 .work-title {
   margin-bottom: 50px;
   text-align: center;
@@ -195,6 +218,10 @@ img {
   padding-top: 94px;
   background-color: #F5F4FA;
   padding-bottom: 94px;
+}
+.team-list {
+  display: flex;
+  gap: 30px;
 }
 .team-item {
   background-color: var(--add-white);
@@ -226,6 +253,11 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.filter-btn-list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
 .filter-btn {
   margin-top: 8px;
   font-size: 16px;
@@ -239,6 +271,9 @@ img {
   cursor: pointer;
 }
 .gallery-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
   margin-top: 34px;
 }
 .gallery-item {
