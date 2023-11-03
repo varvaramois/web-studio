@@ -231,14 +231,19 @@ img {
   font-size: 36px;
   letter-spacing: 1.08px;
 }
+.team-wrapper-info {
+  padding: 30px 0;
+}
 .team-subtitle {
-  padding-top: 30px;
-  text-align: center;
-  font-size: 16px;
-  letter-spacing: 0.48px;
+  color: var(--main-color);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.48px; 
 }
 .team-text {
-  padding-top: 10px;
+  margin-top: 10px;
   padding-bottom: 30px;
   color: var(--add-color);
   text-align: center;
@@ -276,15 +281,17 @@ img {
 .gallery-item {
   padding-top: 30px;
 }
+.gallery-wrapper-info {
+  padding: 20px 0;
+}
 .gallery-subtitle {
-  margin-top: 20px;
   margin-bottom: 4px;
+  color: var(--main-color);
   font-size: 18px;
   line-height: 2.00;
   letter-spacing: 1.08px;
 }
 .gallery-text {
-  margin-bottom: 20px;
   color: var(--add-color);
   line-height: 1.87;
 }
