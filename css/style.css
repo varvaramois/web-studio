@@ -185,6 +185,9 @@ img {
   display: flex;
   gap: 30px;
 }
+.advantages-item {
+  flex-basis: calc((100% - 90px) / 4);
+}
 .advantages-item-title {
   margin-bottom: 10px;
   font-size: 14px;
@@ -244,7 +247,6 @@ letter-spacing: 0.48px;
 }
 .team-text {
   margin-top: 10px;
-  padding-bottom: 30px;
   color: var(--add-color);
   text-align: center;
   font-size: 16px;
@@ -279,10 +281,10 @@ letter-spacing: 0.48px;
   margin-top: 34px;
 }
 .gallery-item {
-  padding-top: 30px;
+  flex-basis: calc(100%-60px)/3;
 }
 .gallery-wrapper-info {
-  padding: 20px 0;
+  padding: 20px 24px;
 }
 .gallery-subtitle {
   margin-bottom: 4px;
