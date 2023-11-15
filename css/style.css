@@ -188,6 +188,28 @@ img {
 .advantages-item {
   flex-basis: calc((100% - 90px) / 4);
 }
+.advantages-item::before {
+  content: '';
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
+  border-radius: 4%;
+  margin: 30px auto;
+  background-image: url('../images/advent_img1.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70px 70px;
+}
+.advantages-item:nth-child(2):before {
+  background-image: url('../images/advent_img2.svg');
+}
+.advantages-item:nth-child(3):before {
+  background-image: url('../images/advent_img3.svg');
+}
+.advantages-item:nth-child(4):before {
+  background-image: url('../images/advent_img4.svg');
+}
 .advantages-item-title {
   margin-bottom: 10px;
   font-size: 14px;
@@ -264,6 +286,10 @@ letter-spacing: 0.48px;
   gap: 8px;
 }
 .filter-btn {
+  min-width: 73px;
+  padding: 6px 22px;
+  border: none;
+  border-radius: 4px;
   font-size: 16px;
   line-height: 1.62;
   color: var(--main-color);
