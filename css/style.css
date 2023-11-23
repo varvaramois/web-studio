@@ -324,6 +324,7 @@ img {
 }
 .gallery-item {
   flex-basis: calc((100% - 60px) / 3);
+  border: 1px solid #EEE;
 }
 .gallery-link {
   display: block;
