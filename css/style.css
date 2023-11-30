@@ -151,7 +151,10 @@ img {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: var(--main-bg-color);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../images/background_img.jpg);
+  background-repeat: no-repeat;
+  background-size: 1600px;
+  background-position: center;
 }
 .hero-title {
   color: #fff;
@@ -161,7 +164,6 @@ img {
   line-height: 1.36;
   letter-spacing: 2.64px;
   text-transform: uppercase;
-  background-color: var(--main-bg-color);
 }
 .team-title,
 .work-title,
