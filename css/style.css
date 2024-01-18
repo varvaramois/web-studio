@@ -92,10 +92,12 @@ img {
 }
 .header-list {
   display: flex;
-  gap: 50px;
+  gap: 30px;
   margin-left: auto;
 }
 .header-address-link {
+  display: flex;
+  align-items: center;
   color: var(--add-color);
   font-size: 14px;
   font-weight: 500;
@@ -157,6 +159,7 @@ img {
 }
 .footer > .container {
   display: flex;
+  gap: 70px;
 }
 .soc-footer-list {
   display: flex;
@@ -221,6 +224,7 @@ img {
 .hero-btn:hover,
 .hero-btn:focus {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 .advantages {
   padding-top: 94px;
@@ -365,16 +369,15 @@ border: 1px solid #AFB1B8;
 }
 .customers-link:hover .customers-icon, .customers-link:focus .customers-icon {
   fill: var(--accent-color);
+  transition: 0.3s;
 }
 .soc-title {
+  padding-top: 12px;
   color: var(--add-white);
-font-family: Roboto;
 font-size: 14px;
-font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 0.42px;
-text-transform: uppercase; 
 }
 .soc-icon {
   fill: var(--add-color);
@@ -382,9 +385,7 @@ text-transform: uppercase;
 .customers-title {
   color:var(--main-color);
 text-align: center;
-font-family: Roboto;
 font-size: 36px;
-font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px; 
