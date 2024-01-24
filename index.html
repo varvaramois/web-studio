@@ -51,47 +51,64 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для<br>вашого бізнесу</h1>
-          <button type="button" class="hero-btn">Замовити послугу</button>
-          <div class="backdrop" data-modal>
-            <div class="modal">
-              <button type="button" class="btn" data-modal-close>
-                <svg width="20" height="20">
-                  <use href="./img/symbol-defs.svg#icon-close"></use>
-                </svg>
-              </button>
-              <p class="review-title">Reach out to us!</p>
-              <form class="review-form">
-                <input
-                  class="review-input"
-                  type="text"
-                  name="name"
-                  placeholder="Your name*"
-                  autofocus
-                  required
-                />
-                <input
-                  class="review-input"
-                  type="email"
-                  name="email"
-                  placeholder="Your e-mail*"
-                  required
-                  pattern="/^[^-._]{1}[A-Za-z0-9._-]{1,}@[^-._]{1}[A-Za-z0-9.-]{0,}\.[A-Za-z]{2,4}$/"
-                />
-                <input type="date" class="review-input date-input" name="date" required min="2024-01-20" max="2024-01-27"/>
-                <textarea
-                  class="review-message"
-                  name="message"
-                  id="message"
-                  placeholder="Your message*"
-                  required
-                  maxlength="400"
-                ></textarea>
-                <button class="review-btn" type="submit" disabled>Send message</button>
-              </form>
-            </div>
-          </div>
-          <script src="./js/modal.js"></script>
+          <button type="button" class="hero-btn" data-modal-open>Замовити послугу</button>
         </div>
+      </section>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="btn" data-modal-close>
+          <svg class="icon-cross-svg" width="18" height="18">
+            <use class="icon-cross" href="./images/symbol-defs.svg#icon-cross"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+        <form class="modal-form">
+          <label class="modal-label" for="name">Ім'
+              <input
+                class="modal-input"
+                type="text"
+                name="name"
+                id="name"
+                autofocus
+                required
+                minlength="2" 
+                maxlength="20"
+              />
+          </label>
+            <svg class="icon-modal-person-svg" width="18" height="18">
+              <use class="icon-modal-person" href="./images/symbol-defs.svg#icon-modal-person"></use>
+            </svg>
+          <label class="modal-label" for="tel">Телефон
+          <input
+            class="modal-input"
+            type="tel"
+            name="tel"
+            id="tel"
+            required
+          />
+          </label>
+          <label class="modal-label" for="email">Пошта
+          <input 
+            type="email"
+            class="modal-input"
+            name="email"
+            id="email"
+            required
+            pattern="/^[^-._]{1}[A-Za-z0-9._-]{1,}@[^-._]{1}[A-Za-z0-9.-]{0,}\.[A-Za-z]{2,4}$/"
+            />
+          </label>
+          <label class="modal-label" for="comment">Коментар
+          <textarea class="comment-text" name="comment" id="comment" placeholder="Введіть текст"></textarea>
+          </label>
+          <input class="checkbox-input" type="checkbox" id="checkbox" required>
+          <label class="checkbox-text" for="checkbox">Погоджуюся з розсилкою та приймаю <a class="checkbox-rules" href="">Умови договору</a>
+          </label>
+          <button class="modal-btn" type="submit">Відправити</button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+    </div>
       </section>
       <section class="advantages">
         <div class="container">
@@ -256,6 +273,17 @@
             <li class="soc-footer-list-item"><a href="" class="soc-footer-link"><svg class="soc-footer-icon" width="20" height="20"><use href="./images/symbol-defs.svg#icon-facebook"></use></svg></a></li>
             <li class="soc-footer-list-item"><a href="" class="soc-footer-link"><svg class="soc-footer-icon" width="20" height="20"><use href="./images/symbol-defs.svg#icon-linkedin"></use></svg></a></li>
           </ul>
+       </div>
+       <div class="subscribe">
+        <p class="subscribe-title">Підпишіться на розсилку</p>
+        <form class="subscribe-form">
+          <input class="subscribe-input" type="email" placeholder="E-mail">
+          <button class="subscribe-btn" type="submit">Підписатися
+            <svg class="icon-telegram-svg" width="24" height="24">
+              <use class="icon-telegram" href="./images/symbol-defs.svg#icon-telegram"></use>
+            </svg>
+          </button>
+        </form>
        </div>
       </div>
     </footer>
