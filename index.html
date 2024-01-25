@@ -54,60 +54,6 @@
           <button type="button" class="hero-btn" data-modal-open>Замовити послугу</button>
         </div>
       </section>
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button type="button" class="btn" data-modal-close>
-          <svg class="icon-cross-svg" width="18" height="18">
-            <use class="icon-cross" href="./images/symbol-defs.svg#icon-cross"></use>
-          </svg>
-        </button>
-        <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
-        <form class="modal-form">
-          <label class="modal-label" for="name">Ім'
-              <input
-                class="modal-input"
-                type="text"
-                name="name"
-                id="name"
-                autofocus
-                required
-                minlength="2" 
-                maxlength="20"
-              />
-          </label>
-            <svg class="icon-modal-person-svg" width="18" height="18">
-              <use class="icon-modal-person" href="./images/symbol-defs.svg#icon-modal-person"></use>
-            </svg>
-          <label class="modal-label" for="tel">Телефон
-          <input
-            class="modal-input"
-            type="tel"
-            name="tel"
-            id="tel"
-            required
-          />
-          </label>
-          <label class="modal-label" for="email">Пошта
-          <input 
-            type="email"
-            class="modal-input"
-            name="email"
-            id="email"
-            required
-            pattern="/^[^-._]{1}[A-Za-z0-9._-]{1,}@[^-._]{1}[A-Za-z0-9.-]{0,}\.[A-Za-z]{2,4}$/"
-            />
-          </label>
-          <label class="modal-label" for="comment">Коментар
-          <textarea class="comment-text" name="comment" id="comment" placeholder="Введіть текст"></textarea>
-          </label>
-          <input class="checkbox-input" type="checkbox" id="checkbox" required>
-          <label class="checkbox-text" for="checkbox">Погоджуюся з розсилкою та приймаю <a class="checkbox-rules" href="">Умови договору</a>
-          </label>
-          <button class="modal-btn" type="submit">Відправити</button>
-        </form>
-      </div>
-    </div>
-    <script src="./js/modal.js"></script>
     </div>
       </section>
       <section class="advantages">
@@ -287,5 +233,66 @@
        </div>
       </div>
     </footer>
+    <body>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="btn" data-modal-close>
+          <svg class="icon-cross-svg" width="18" height="18">
+            <use class="icon-cross" href="./images/symbol-defs.svg#icon-cross"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+        <form class="modal-form">
+          <label class="modal-label" for="name">Ім'я
+              <input
+                class="modal-input"
+                type="text"
+                name="name"
+                id="name"
+                autofocus
+                required
+                minlength="2" 
+                maxlength="20"
+              />
+              <svg class="icon-modal-svg" width="18" height="18">
+                <use class="icon-modal" href="./images/symbol-defs.svg#icon-modal-person"></use>
+              </svg>
+          </label>
+          <label class="modal-label" for="tel">Телефон
+          <input
+            class="modal-input"
+            type="tel"
+            name="tel"
+            id="tel"
+            required
+          />
+          <svg class="icon-modal-svg" width="18" height="18">
+            <use class="icon-modal" href="./images/symbol-defs.svg#icon-modal-phone"></use>
+          </svg>
+          </label>
+          <label class="modal-label" for="email">Пошта
+          <input 
+            type="email"
+            class="modal-input"
+            name="email"
+            id="email"
+            required
+            pattern="/^[^-._]{1}[A-Za-z0-9._-]{1,}@[^-._]{1}[A-Za-z0-9.-]{0,}\.[A-Za-z]{2,4}$/"
+            />
+            <svg class="icon-modal-svg" width="18" height="18">
+              <use class="icon-modal" href="./images/symbol-defs.svg#icon-modal-email"></use>
+            </svg>
+          </label>
+          <label class="modal-label" for="comment">Коментар
+          <textarea class="comment-text" name="comment" id="comment" placeholder="Введіть текст"></textarea>
+          </label>
+          <label class="checkbox-text" for="checkbox"><input class="checkbox-input" type="checkbox" id="checkbox" required>Погоджуюся з розсилкою та приймаю <a class="checkbox-rules" href="">Умови договору</a>
+          </label>
+          <button class="modal-btn" type="submit">Відправити</button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+    </body>
   </body>
 </html>
